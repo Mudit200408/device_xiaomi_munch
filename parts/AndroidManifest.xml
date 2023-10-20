@@ -104,8 +104,6 @@
             <intent-filter>
                 <action android:name="com.android.settings.action.IA_SETTINGS" />
             </intent-filter>
-
-<<<<<<< HEAD
             <meta-data
                 android:name="com.android.settings.category"
                 android:value="com.android.settings.category.ia.display" />
@@ -182,6 +180,7 @@
             android:permission="android.permission.BIND_QUICK_SETTINGS_TILE">
             <intent-filter>
                 <action android:name="android.service.quicksettings.action.QS_TILE" />
+			</intent-filter>
          </service>
 
         <activity
@@ -200,7 +199,7 @@
             </intent-filter>
             <meta-data android:name="com.android.settings.category"
                        android:value="com.android.settings.category.ia.sound" />
-            <meta-data android:name="com.android.settings.summary"
+			<meta-data android:name="com.android.settings.summary"
                        android:resource="@string/dolby_summary" />
         </activity>
         
