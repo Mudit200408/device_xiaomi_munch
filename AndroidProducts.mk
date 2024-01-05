@@ -5,9 +5,9 @@
 #
 
 PRODUCT_MAKEFILES := \
-    $(LOCAL_DIR)/aosp_munch.mk
+    $(LOCAL_DIR)/afterlife_munch.mk
 
 COMMON_LUNCH_CHOICES := \
-    aosp_munch-user \
-    aosp_munch-userdebug \
-    aosp_munch-eng
+    afterlife_munch-user \
+    afterlife_munch-userdebug \
+    afterlife_munch-eng
