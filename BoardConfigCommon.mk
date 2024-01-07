@@ -90,6 +90,9 @@ TARGET_USES_FOD_ZPOS := true
 endif
 TARGET_USES_VULKAN := true
 
+# Disable Postrender Cleanup
+TARGET_DISABLE_POSTRENDER_CLEANUP := true
+
 # Filesystem
 TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
 
