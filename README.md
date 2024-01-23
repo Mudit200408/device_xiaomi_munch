@@ -1,8 +1,8 @@
-# Common device tree for Xiaomi SM8250 devices
+# Device tree repository for Alioth/in (Poco F3 / Mi 11x / Redmi K40)
 
 ```
 #
-# Copyright (C) 2021 The LineageOS Project
+# Copyright (C) 2022 VoidUI Eternity Project
 #
 # SPDX-License-Identifier: Apache-2.0
 #
