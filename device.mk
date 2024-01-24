@@ -425,6 +425,19 @@ PRODUCT_USE_DYNAMIC_PARTITIONS := true
 PRODUCT_PACKAGES += \
     libqti-perfd-client
 
+PRODUCT_PACKAGES += \
+    libpsi.vendor \
+    libtflite
+
+PRODUCT_PACKAGES += \
+    vendor.qti.hardware.perf@2.3 \
+    vendor.qti.hardware.perf@2.3.vendor \
+    vendor.qti.hardware.servicetracker@1.2.vendor
+
+PRODUCT_BOOT_JARS += \
+    QPerformance \
+    UxPerformance
+    
 # Protobuf
 PRODUCT_PACKAGES += \
     libprotobuf-cpp-full-3.9.1-vendorcompat \
@@ -433,10 +446,7 @@ PRODUCT_PACKAGES += \
 # Power
 PRODUCT_PACKAGES += \
     android.hardware.power-service.xiaomi-libperfmgr
-
-PRODUCT_COPY_FILES += \
-    $(LOCAL_PATH)/configs/perf/powerhint.json:$(TARGET_COPY_OUT_VENDOR)/etc/powerhint.json
-
+    
 # Public libraries
 PRODUCT_COPY_FILES += \
     $(LOCAL_PATH)/configs/public.libraries.txt:$(TARGET_COPY_OUT_VENDOR)/etc/public.libraries.txt

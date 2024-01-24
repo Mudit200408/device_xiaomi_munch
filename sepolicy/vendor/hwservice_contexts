@@ -14,3 +14,4 @@ vendor.xiaomi.hardware.touchfeature::ITouchFeature                              
 
 # Vibrator Feature
 vendor.xiaomi.hardware.vibratorfeature::IVibratorFeature            u:object_r:vendor_hal_vibratorfeature_hwservice:s0
+
